@@ -1,0 +1,8 @@
+langchain
+sentence-transformers==2.2.2
+PyPDF
+langchain-community
+faiss-cpu
+transformers
+torch
+accelerate
