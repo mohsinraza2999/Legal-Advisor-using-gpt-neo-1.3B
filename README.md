@@ -1,28 +1,42 @@
-# Legal-Advisor-using-gpt-neo-1.3B
-This project aims to build an AI-powered Legal Advisor that leverages natural language processing and vector search technology to provide users with legal guidance based on authoritative legal texts.
-🔍 How It Works
-User Input: The user submits a legal question via a prompt.
+<h1>🧠Legal-Advisor-using-gpt-neo-1.3B</h1>
 
-Vector Search: The question is embedded and used to query a vector database containing embeddings of a legal book.
+<p>An intelligent legal assistant that leverages Natural Language Processing (NLP), vector search, and open-source language models to provide legal guidance based on authoritative legal texts.</p>
 
-Contextual Retrieval: Relevant sections from the book are retrieved based on semantic similarity.
+<hr/>
 
-AI Response: The user query and retrieved legal content are passed to GPT-Neo 1.3B, which generates a legal advisory response.
+<h2>🔍 How It Works</h2>
 
-⚙️ Tech Stack
-Text Embeddings: To represent legal content semantically.
+<ol>
+  <li><strong>💬 User Input:</strong> The user submits a legal question or prompt through a simple interface.</li>
+  <li><strong>📚 Semantic Search:</strong> The prompt is embedded and used to query a vector database containing semantic representations (embeddings) of a legal book.</li>
+  <li><strong>📖 Contextual Retrieval:</strong> Relevant sections of the legal text are retrieved based on semantic similarity to the user's query.</li>
+  <li><strong>🧠 AI-Powered Response:</strong> The original query and retrieved context are passed to <code>GPT-Neo 1.3B</code>, which generates a response grounded in legal context.</li>
+</ol>
 
-Vector Database: (e.g. FAISS, Pinecone) for fast and relevant document retrieval.
+<hr/>
 
-GPT-Neo 1.3B: Open-source language model for generating legal advice.
+<h2>⚙️ Tech Stack</h2>
 
-Python: Core language for backend logic.
+<ul>
+  <li><strong>🧾 Text Embeddings:</strong> Converts legal content into high-dimensional vectors for semantic search.</li>
+  <li><strong>📊 Vector Database:</strong> Efficient document storage and retrieval using FAISS, Pinecone, or similar tools.</li>
+  <li><strong>🧠 GPT-Neo 1.3B:</strong> Open-source transformer model to generate legal insights.</li>
+  <li><strong>🐍 Python:</strong> Core language for backend logic and system orchestration.</li>
+</ul>
 
-💼 Use Cases
-Legal research assistance
+<hr/>
 
-Law student support
+<h2>💼 Use Cases</h2>
 
-General legal literacy tool
+<ul>
+  <li>🧑‍🎓 <strong>Law Student Support:</strong> Quickly understand legal concepts and references.</li>
+  <li>🧾 <strong>Legal Research Assistant:</strong> Automate lookup of relevant sections from legal texts.</li>
+  <li>🧠 <strong>General Legal Literacy:</strong> Make legal knowledge more accessible to non-lawyers.</li>
+</ul>
 
-⚠️ Disclaimer: This tool provides AI-generated responses and is not a substitute for professional legal advice.
+<hr/>
+
+<blockquote>
+  ⚠️ <strong>Disclaimer:</strong> This tool provides AI-generated responses for educational and informational purposes only. It is <strong>not a substitute</strong> for professional legal advice.
+</blockquote>
+
