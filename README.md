@@ -43,7 +43,7 @@
 
 <hr>
 
-   <h2style="color: #34495e;">📁 Directory Structure</h2>
+   <h2 style="color: #34495e;">📁 Directory Structure</h2>
    <pre style="background: #f4f4f4; padding: 15px; border: 1px solid #ddd;">
 rag-system/
 ├── chunking/          # Document loading and chunking
@@ -52,7 +52,7 @@ rag-system/
 ├── prompts/           # Prompt templating
 ├── llm_interface/     # Local LLM loading (HuggingFace)
 ├── scripts/           # Main execution scripts
-├── data/
+├── dataset/
 │   └── raw/           # Place your .pdf files here
 ├── requirements.txt
 └── README.html
