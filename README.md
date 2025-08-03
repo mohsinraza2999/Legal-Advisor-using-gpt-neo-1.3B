@@ -41,10 +41,10 @@
 </blockquote>
 
 
-    <hr>
+<hr>
 
-    <h2 style="color: #34495e;">📁 Directory Structure</h2>
-    <pre style="background: #f4f4f4; padding: 15px; border: 1px solid #ddd;">
+   <h2style="color: #34495e;">📁 Directory Structure</h2>
+   <pre style="background: #f4f4f4; padding: 15px; border: 1px solid #ddd;">
 rag-system/
 ├── chunking/          # Document loading and chunking
 ├── embeddings/        # Embedding logic
@@ -58,23 +58,23 @@ rag-system/
 └── README.html
     </pre>
 
-    <hr>
+   <hr>
 
-    <h2 style="color: #34495e;">🚀 Getting Started</h2>
+   <h2 style="color: #34495e;">🚀 Getting Started</h2>
 
-    <h3>1. Install Dependencies</h3>
+   <h3>1. Install Dependencies</h3>
     <pre style="background: #eef; padding: 10px; border-left: 5px solid #2980b9;">pip install -r requirements.txt</pre>
 
-    <h3>2. Place Documents</h3>
+   <h3>2. Place Documents</h3>
     <p>Put your <code>.pdf</code> files into:</p>
     <pre style="background: #f4f4f4; padding: 10px;">data/raw/</pre>
 
-    <h3>3. Run the Pipeline</h3>
+   <h3>3. Run the Pipeline</h3>
     <pre style="background: #eef; padding: 10px; border-left: 5px solid #27ae60;">python scripts/run_rag.py</pre>
 
-    <hr>
+   <hr>
 
-    <h2 style="color: #34495e;">📌 Components</h2>
+   <h2 style="color: #34495e;">📌 Components</h2>
     <ul>
         <li><strong>Corpus Loader</strong>: Loads and chunks PDFs.</li>
         <li><strong>Embeddings</strong>: Uses HuggingFace models like <code>all-MiniLM-L6-V2</code>.</li>
@@ -83,9 +83,9 @@ rag-system/
         <li><strong>LLM Inference</strong>: Runs a local model (e.g., <code>EleutherAI/gpt-neo-1.3B</code>) using Transformers pipeline.</li>
     </ul>
 
-    <hr>
+   <hr>
 
-    <h2 style="color: #34495e;">🛠 Customize</h2>
+   <h2 style="color: #34495e;">🛠 Customize</h2>
     <p>You can replace:</p>
     <ul>
         <li>PDF loader with web or CSV input.</li>
@@ -93,12 +93,12 @@ rag-system/
         <li>LLM with OpenAI, Claude, LLaMA, etc.</li>
     </ul>
 
-    <hr>
+   <hr>
 
-    <h2 style="color: #34495e;">📜 License</h2>
+   <h2 style="color: #34495e;">📜 License</h2>
     <p>This project is open-source and available under the <strong>MIT License</strong>.</p>
 
-    <hr>
+   <hr>
 
-    <h2 style="color: #34495e;">👨‍💻 Author</h2>
-    <p>Made with ❤️ by a GenAI and RAG systems engineer.</p>
+   <h2 style="color: #34495e;">👨‍💻 Author</h2>
+    <p>Made with Mohsin Raza.</p>
