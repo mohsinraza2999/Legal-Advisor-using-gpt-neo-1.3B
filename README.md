@@ -101,4 +101,4 @@ rag-system/
    <hr>
 
    <h2 style="color: #34495e;">👨‍💻 Author</h2>
-    <p>Made with Mohsin Raza.</p>
+    <p>Mohsin Raza</p>
